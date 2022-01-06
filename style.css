@@ -1,2 +1,96 @@
 body {
 }
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  border-left: 5px solid red;
+  padding-left: 10px;
+}
+h2 {
+  font-size: 35px;
+}
+#my-mission {
+  text-align: center;
+}
+p {
+  font-size: 24px;
+}
+.flexible-container {
+  display: flex;
+}
+.orange-color {
+  color: orange;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+}
+.half-width img {
+  width: 80%;
+}
+.mission {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: rgb(216, 234, 240);
+}
+
+.mission img,
+.vission img,
+.goals img {
+  height: 120px;
+  width: 120px;
+}
+.vission {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+
+  background-color: rgb(243, 219, 223);
+}
+.goals {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: rgb(230, 230, 204);
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(tomato, tomato);
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.develop-limit-bg {
+  background-image: url(images/develop-limit-bg.png);
+  background-repeat: no-repeat;
+}
+.know-our-global {
+  background-image: url(images/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.contact-bg {
+  background-image: url(images/contact-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 150px;
+  padding-bottom: 70px;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: black;
+}
+footer h2,
+footer p {
+  color: white;
+}
