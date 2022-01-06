@@ -66,10 +66,13 @@ p {
   font-weight: 700;
   border-radius: 5px;
 }
-
+.mission-margin {
+  margin: 0px 60px 0px 80px;
+}
 .develop-limit-bg {
   background-image: url(images/develop-limit-bg.png);
   background-repeat: no-repeat;
+  margin-right: 100px;
 }
 .know-our-global {
   background-image: url(images/shape-1.png);
